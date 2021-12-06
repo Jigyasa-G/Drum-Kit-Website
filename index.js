@@ -61,6 +61,16 @@ function makeSound(key){
     audio.play();
     break;
 
+    case "i":
+      var audio = new Audio("sounds/Hi-Hat-Foot-Pedal.mp3");
+      audio.play();
+      break;
+
+    case "g":
+      var audio = new Audio("sounds/Drum-Sticks-Hit.mp3");
+      audio.play();
+      break;
+
     default: console.log(buttonInnerHTML);
   }
 
