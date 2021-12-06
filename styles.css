@@ -5,55 +5,47 @@ body {
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  color: #dbedf3;
+  font-family: 'Arvo', cursive;
+  text-shadow: 3px 0 #da0463;
   margin: 5vh auto;
 }
 
-h2{
-color: #AFB9C8;  
+h2 {
+  color: #afb9c8;
 }
 
-
 footer {
-  color: #DBEDF3;
+  color: #dbedf3;
   font-family: sans-serif;
 }
 
 .w {
-  background-image: url("images/tom1.png");
-
+  background-image: url('images/tom1.png');
 }
 
 .a {
-  background-image: url("images/tom2.png");
-
+  background-image: url('images/tom2.png');
 }
 
 .s {
-  background-image: url("images/tom3.png");
-
+  background-image: url('images/tom3.png');
 }
 
 .d {
-  background-image: url("images/tom4.png");
-
+  background-image: url('images/tom4.png');
 }
 
 .j {
-  background-image: url("images/crash.png");
-
+  background-image: url('images/crash.png');
 }
 
 .k {
-  background-image: url("images/kick.png");
-
+  background-image: url('images/kick.png');
 }
 
 .l {
-  background-image: url("images/snare.png");
-
+  background-image: url('images/snare.png');
 }
 
 .set {
@@ -66,7 +58,7 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #dbedf3;
   opacity: 0.5;
 }
 
@@ -76,13 +68,13 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid #404b69;
   font-size: 5rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
@@ -90,4 +82,81 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+/* modal css */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #afb9c8;
+  margin: 7% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  overflow: hidden;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  /* color: black; */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn {
+  /* background-color: #fff; */
+  /* color: #283149; */
+  /* color: #afb9c8; */
+  color: transparent;
+  font-weight: bold;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #dbedf3;
+  border-radius: 15px;
+}
+.btn:focus {
+  transform: scale(0.94);
+}
+
+.instructions {
+  color: #afb9c8;
+  /* size: 1.7rem; */
+  size: 4rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  border: none;
+  outline: none;
+}
+
+.text1 {
+  color: black;
+  margin: 0;
+}
+li {
+  /* text-decoration: ; */
+  list-style: none;
+}
+
+.keys {
+  font-size: 1.8rem;
+  font-family: 'Arvo', cursive;
 }
