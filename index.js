@@ -26,8 +26,20 @@ function makeSound(key) {
       audio.play();
       break; //declarations between case and break:
 
+    case 'a':
+      var audio = new Audio('sounds/tom-2.mp3');
+      audio.play();
       break;
 
+    case 's':
+      var audio = new Audio('sounds/tom-3.mp3');
+      audio.play();
+      break;
+
+    case 'd':
+      var audio = new Audio('sounds/tom-4.mp3');
+      audio.play();
+      break;
     case 'a':
       var audio = new Audio('sounds/tom-2.mp3');
       audio.play();
@@ -55,6 +67,16 @@ function makeSound(key) {
 
     case 'l':
       var audio = new Audio('sounds/snare.mp3');
+      audio.play();
+      break;
+
+    case 'i':
+      var audio = new Audio('sounds/Hi-Hat-Foot-Pedal.mp3');
+      audio.play();
+      break;
+
+    case 'g':
+      var audio = new Audio('sounds/Drum-Sticks-Hit.mp3');
       audio.play();
       break;
 

@@ -48,6 +48,14 @@ footer {
   background-image: url('images/snare.png');
 }
 
+.i {
+  background-image: url('images/Hi-hat.png');
+}
+
+.g {
+  background-image: url('images/drum-stick.jpg');
+}
+
 .set {
   margin: 10% auto;
 }
