@@ -61,6 +61,21 @@ function makeSound(key){
     audio.play();
     break;
 
+    case "f":
+    var audio = new Audio("sounds/openhat.wav");
+    audio.play();
+    break;
+
+    case "g":
+    var audio = new Audio("sounds/boom.wav");
+    audio.play();
+    break;
+
+    case "h":
+    var audio = new Audio("sounds/ride.wav");
+    audio.play();
+    break;
+
     default: console.log(buttonInnerHTML);
   }
 

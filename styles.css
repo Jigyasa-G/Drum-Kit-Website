@@ -55,6 +55,18 @@ footer {
   background-image: url("images/snare.png");
 
 }
+.f {
+  background-image: url("images/circle2.png");
+
+}
+.g {
+  background-image: url("images/snare.png");
+
+}
+.h {
+  background: url("images/circle3.png") ;
+
+}
 
 .set {
   margin: 10% auto;
