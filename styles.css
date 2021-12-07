@@ -56,6 +56,14 @@ footer {
   background-image: url('images/drum-stick.jpg');
 }
 
+.f {
+  background-image: url('images/drum.png');
+}
+
+.h {
+  background-image: url('images/circle.png');
+}
+
 .set {
   margin: 10% auto;
 }
