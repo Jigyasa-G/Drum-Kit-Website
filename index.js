@@ -10,6 +10,36 @@ for (var i = 0; i < numberOfButtons; i++) {
   }
 }
 
+var ref =document.getElementById('refresh');
+ref.addEventListener('click',togglerefresh);
+var theme = document.getElementsByTagName('link')[0];
+var num=0;
+function togglerefresh()
+{
+  console.log(33);
+  num=(num+1)%5;
+  if(num==0)
+  {
+    theme.setAttribute('href', 'styles.css');
+  }
+  if(num==1)
+  {
+    theme.setAttribute('href', 'styles1.css');
+  }
+  if(num==2)
+  {
+    theme.setAttribute('href', 'styles2.css');
+  }
+  if(num==3)
+  {
+    theme.setAttribute('href', 'styles3.css');
+  }
+  if(num==4)
+  {
+    theme.setAttribute('href', 'styles4.css');
+  }
+}
+
 //Detecting Keyboard Press
 
 document.addEventListener('keypress', function (event) {

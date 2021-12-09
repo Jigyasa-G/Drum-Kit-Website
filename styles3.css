@@ -1,13 +1,13 @@
 body {
     text-align: center;
-    background-image: linear-gradient(to right, #11998e,#38ef7d);
+    background-image: linear-gradient(to right, #1a2980,#26d0c0);
   }
   
   h1 {
     font-size: 5rem;
-    color: rgb(253, 55, 55);
-    font-family: "Times New Roman";
-    text-shadow: 1px 0 rgb(250, 253, 68);
+    color: rgb(255, 255, 255);
+    font-family: "Verdana";
+    /*text-shadow: 1px 0 rgb(250, 253, 68);*/
     margin: 5vh auto;
   }
   i{
@@ -15,7 +15,7 @@ body {
     font-size: 20px;
   }
   h2 {
-    color: yellow;
+    color: rgb(209, 209, 188);
   }
   
   footer {
@@ -87,7 +87,7 @@ body {
   
   .drum {
     outline: none;
-    border: 10px solid #d4c536;
+    border: 10px solid #677d86;
     font-size: 5rem;
     font-family: 'Arvo', cursive;
     line-height: 2;
@@ -123,12 +123,12 @@ body {
     font-size:3rem;
     
     font-family: 'Arvo', cursive;
-    text-shadow: 3px 0 #da0463;
+    
     margin: 5vh auto;
   }
   
   .modal-content {
-    background-image:linear-gradient(to right,#ff512f,#dd2476);
+    background-image:linear-gradient(to right,#232526,#414345);
     margin: 4% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -136,7 +136,7 @@ body {
     max-height: 85%;
     border-style:solid;
     border-width: 12px;
-    border-color: white;
+    border-color: rgb(0, 0, 0);
     overflow-y: scroll;
   }
   
@@ -173,7 +173,7 @@ body {
     font-weight: bold;
     height: 40px;
     width: 150px;
-    border: 2px solid #009952;
+    border: 2px solid #078859;
     border-radius: 15px;
   }
   .btn:focus {
@@ -181,7 +181,7 @@ body {
   }
   
   .instructions {
-    color: #40da85;
+    color: #1a2980;
     /* size: 1.7rem; */
     size: 4rem;
     margin-block-start: 0;
@@ -198,7 +198,7 @@ body {
   
   .text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #dbff11;
+    color: #ffffff;
     text-decoration: underline;
     text-align:center;
     margin-left:6%;
@@ -208,8 +208,9 @@ body {
   .text2
   {
     font-size:2rem;
-    color:#b6ff2f;
+    color:#cad1bd;
     font-weight: 600;
+    text-decoration: underline;
   }
   
   li {
@@ -219,7 +220,7 @@ body {
   
   .keys {
     font-size: 2rem;
-    color: rgb(248, 252, 16);
+    color: rgb(192, 192, 178);
     font-weight: 900;
   }
   
