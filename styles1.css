@@ -1,0 +1,225 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, #11998e,#38ef7d);
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: rgb(253, 55, 55);
+    font-family: "Times New Roman";
+    text-shadow: 1px 0 rgb(250, 253, 68);
+    margin: 5vh auto;
+  }
+  i{
+    color:white;
+    font-size: 20px;
+  }
+  h2 {
+    color: yellow;
+  }
+  
+  footer {
+    color: #dbedf3;
+    font-family: sans-serif;
+  }
+  
+  .w {
+    background-image: url('images/tom1.png');
+  }
+  
+  .a {
+    background-image: url('images/tom2.png');
+  }
+  
+  .s {
+    background-image: url('images/tom3.png');
+  }
+  
+  .d {
+    background-image: url('images/tom4.png');
+  }
+  
+  .j {
+    background-image: url('images/crash.png');
+  }
+  
+  .k {
+    background-image: url('images/kick.png');
+  }
+  
+  .l {
+    background-image: url('images/snare.png');
+  }
+  
+  .i {
+    background-image: url('images/Hi-hat.png');
+  }
+  
+  .g {
+    background-image: url('images/drum-stick.jpg');
+  }
+  
+  .f {
+    background-image: url('images/drum.png');
+  }
+  
+  .h {
+    background-image: url('images/circle.png');
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #d4c536;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #da0463;
+    text-shadow: 3px 0 #dbedf3;
+    border-radius: 60px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
+  /* modal css */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+   
+  
+  }
+  
+  h3{
+    font-size:3rem;
+    
+    font-family: 'Arvo', cursive;
+    text-shadow: 3px 0 #da0463;
+    margin: 5vh auto;
+  }
+  
+  .modal-content {
+    background-image:linear-gradient(to right,#ff512f,#dd2476);
+    margin: 4% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 67%;
+    max-height: 85%;
+    border-style:solid;
+    border-width: 12px;
+    border-color: white;
+    overflow-y: scroll;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  ul{
+    text-align: center;
+    
+    margin-top: -2px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    /* color: black; */
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn {
+    background-color: #fff; 
+    /* color: #283149; */
+    /* color: #afb9c8; */
+    /*color: ;*/
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #009952;
+    border-radius: 15px;
+  }
+  .btn:focus {
+    transform: scale(0.94);
+  }
+  
+  .instructions {
+    color: #40da85;
+    /* size: 1.7rem; */
+    size: 4rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    border: none;
+    outline: none;
+  }
+  
+  .text1 {
+    color: #ffffff;
+    margin: 0;
+    font-size:1.5rem;
+  }
+  
+  .text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #dbff11;
+    text-decoration: underline;
+    text-align:center;
+    margin-left:6%;
+  }
+  
+  
+  .text2
+  {
+    font-size:2rem;
+    color:#b6ff2f;
+    font-weight: 600;
+  }
+  
+  li {
+    /* text-decoration: ; */
+    list-style: none;
+  }
+  
+  .keys {
+    font-size: 2rem;
+    color: rgb(248, 252, 16);
+    font-weight: 900;
+  }
+  
