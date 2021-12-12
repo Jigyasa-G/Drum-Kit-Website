@@ -1,4 +1,4 @@
-![Drum Kit](![Drumkit-preview](https://user-images.githubusercontent.com/94735564/145700332-615ac9b1-5628-4a70-b1f6-f75795e38ff8.jpeg))
+![Drum Kit](https://user-images.githubusercontent.com/94735564/145700332-615ac9b1-5628-4a70-b1f6-f75795e38ff8.jpeg)
 
 # <img src="https://raw.githubusercontent.com/Jigyasa-G/Drum-Kit-Website/main/favicon.ico" width="36"> Drum Kit
 
