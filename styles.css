@@ -2,7 +2,55 @@
 
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #efeff3;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.welcome{
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+.logo{
+  width: 15%;
+  height: 30%;
+  margin-top: 5px;
+  
+}
+.login__input {
+  /* border: none; */
+  padding: 0.5rem 2rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  text-align: center;
+  width: 12rem;
+  border-radius: 10rem;
+  margin-right: 1rem;
+  color: inherit;
+  border: 1px solid rgb(12, 10, 10);
+  transition: all 0.3s;
+}
+
+.sec{
+  opacity: 0;
+}
+.login__btn {
+  border: none;
+  background: none;
+  font-size: 2.2rem;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.login__btn:hover,
+.login__btn:focus {
+  outline: none;
+  color: #777;
 }
 
 h1 {

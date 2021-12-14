@@ -1,3 +1,21 @@
+const get_detail=document.querySelector('.login__input');
+const btnlogin=document.querySelector('.login__btn');
+const container=document.querySelector('.sec');
+const navig=document.querySelector('.navigation');
+const welcome=document.querySelector('.wel');
+
+btnlogin.addEventListener('click',function(e){
+  e.preventDefault();
+  value=get_detail.value;
+  if(get_detail.value)
+  {
+    container.style.opacity=100;
+
+    welcome.innerHTML=`Welcome  ${get_detail.value}`;
+    navig.innerHTML=` `;
+    
+
+
 var numberOfButtons = document.querySelectorAll('.drum').length;
 
 for (var i = 0; i < numberOfButtons; i++) {
@@ -200,3 +218,7 @@ btn.onclick = function () {
 }
 
 
+}
+
+
+});
