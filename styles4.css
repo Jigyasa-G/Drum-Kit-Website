@@ -343,6 +343,17 @@ body {
     background: #111;
     width: 250px;
     z-index: 3;
+    display: none;
+}
+.key-map-wrapper_one {
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 700px;
+    background: #111;
+    width: 250px;
+    z-index: 3;
+    display: block!important;
 }
 
 .key-map-wrapper > h2 {

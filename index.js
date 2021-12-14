@@ -120,25 +120,16 @@ function buttonAnimation(currentKey) {
   }, 100);
 }
 
-var modal = document.getElementById('myModal');
+var wrapper = document.getElementById('key_wrapper');
 
 var btn = document.getElementById('myBtn');
 
-var span = document.getElementsByClassName('close')[0];
+
 
 btn.onclick = function () {
-  modal.style.display = 'block';
+  wrapper.classList.toggle("key-map-wrapper_one");
 };
 
-span.onclick = function () {
-  modal.style.display = 'none';
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = 'none';
-  }
-};
 
 // JavaScript Drum Kit App
 
