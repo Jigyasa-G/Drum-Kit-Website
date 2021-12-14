@@ -1,4 +1,4 @@
-![Drum Kit](https://user-images.githubusercontent.com/94735564/145700332-615ac9b1-5628-4a70-b1f6-f75795e38ff8.jpeg)
+![Drum Kit]![WhatsApp Image 2021-12-14 at 4 40 00 PM](https://user-images.githubusercontent.com/94735564/145988366-d29d4b18-d96a-41cd-b8d3-e79db99b090e.jpeg)
 
 # <img src="https://raw.githubusercontent.com/Jigyasa-G/Drum-Kit-Website/main/favicon.ico" width="36"> Drum Kit
 
