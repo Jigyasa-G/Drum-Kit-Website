@@ -3,7 +3,6 @@
 
 This project is based on the different sounds produced when instruments of Drum Kit are hit.
 
-
 ![Issues](https://img.shields.io/github/issues/Jigyasa-G/Drum-Kit-Website)
 ![Pull Requests](https://img.shields.io/github/issues-pr/Jigyasa-G/Drum-Kit-Website?)
 ![Forks](https://img.shields.io/github/forks/Jigyasa-G/Drum-Kit-Website)
@@ -90,3 +89,4 @@ https://t.me/+DKcljEMxI882ODBl
 ## Open Source Event
 
 <img  src="https://vchrombiediary.files.wordpress.com/2017/12/screenshot-from-2017-12-05-17-02-03-another-copy-e1512483232128.png" href="https://kwoc.kossiitkgp.org/">
+
