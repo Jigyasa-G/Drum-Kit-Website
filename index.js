@@ -61,10 +61,10 @@ function makeSound(key) {
       audio.play();
       break;
 
-    case 's':
-      var audio = new Audio('sounds/tom-3.mp3');
-      audio.play();
-      break;
+    // case 's':
+    //   var audio = new Audio('sounds/tom-3.mp3');
+    //   audio.play();
+    //   break;
 
     case 'd':
       var audio = new Audio('sounds/tom-4.mp3');
