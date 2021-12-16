@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Handlee|Pacifico);
 
 body {
+  display: block;
   text-align: center;
   background-color: #283149;
 }
@@ -19,7 +20,7 @@ h2 {
 
 footer {
   color: #dbedf3;
-  font-family: sans-serif;
+  font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 .w {
