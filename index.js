@@ -197,6 +197,34 @@ btn.onclick = function () {
 	hiHatTop.addEventListener('transitionend', removeHiHatTopTransition);
 
 	window.addEventListener('keydown', playSound);
+
+
+    // On click audio function 
+
+    function playOnClick(){
+      const audio = document.querySelector(`audio[data-key="${this.dataset.key}"]`);
+      const key = document.querySelector(`div[data-key="${this.dataset.key}"]`);
+      if (!audio) return;
+  
+      audio.currentTime = 0;
+      audio.play();
+      const keyNo = this.dataset.key;
+      
+      switch(keyNo) {
+        case '69':
+        case '82':
+          animateCrashOrRide();
+          break;
+        case '75':
+          animateHiHatClosed();
+          console.log("happen");
+        break;
+      }
+      key.classList.add(playingClass);
+    }
+  
+    const drumbtn = document.querySelectorAll('.key');
+    drumbtn.forEach(key=>key.addEventListener('click', playOnClick));
 }
 
 
