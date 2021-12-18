@@ -1,8 +1,18 @@
-body {
+* {
     text-align: center;
-    background-image: linear-gradient(to right, #bc4e9c,#f80759);
+    background-image: url("https://www.teahub.io/photos/full/156-1569779_wallpaper-pink-linear-red-gradient-pale-violet-red.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
   
+  .welcome{
+    color: black;
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
+
   h1 {
     font-size: 5rem;
     color: rgb(231, 231, 42);
@@ -388,4 +398,8 @@ body {
 	margin-left: 10px;
 	font-family: 'Handlee', cursive;
 	vertical-align: middle;
+}
+
+.footer{
+  color: #111;
 }
