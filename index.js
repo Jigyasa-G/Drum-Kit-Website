@@ -11,7 +11,7 @@ btnlogin.addEventListener('click',function(e){
   {
     container.style.opacity=100;
 
-    welcome.innerHTML=`Welcome  ${get_detail.value}`;
+    welcome.innerHTML=`Welcome  ${get_detail.value} !`;
     navig.innerHTML=` `;
     
 
