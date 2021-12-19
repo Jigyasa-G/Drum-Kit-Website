@@ -173,12 +173,16 @@ body {
     height: 40px;
     width: 150px;
     border: 2px solid #f80759;
-    border-radius: 15px;
+    border-radius: 50px;
+     cursor: pointer;
+    transition: all 0.3s ease 0s;
   }
   .btn:focus {
     transform: scale(0.94);
   }
-  
+  .btn:hover {
+  background-color: rgb(173, 255, 47);
+}
   .instructions {
     color: #bc4e9c;
     /* size: 1.7rem; */
