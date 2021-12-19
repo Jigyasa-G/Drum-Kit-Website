@@ -64,7 +64,7 @@ Contributions are always welcome!
 <br>
 </div>
 
-## Authors
+## Author
 
 - [@Jigyasa-G](https://www.github.com/Jigyasa-G)
 
