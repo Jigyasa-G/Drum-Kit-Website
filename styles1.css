@@ -314,12 +314,25 @@ nav {
     height: 40px;
     width: 150px;
     border: 2px solid #009952;
-    border-radius: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
   }
   .btn:focus {
     transform: scale(0.94);
   }
-  
+  .btn:hover {
+  background-color: rgb(128, 0, 0);
+}
+  .btn1{
+  font-size: 21px;
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn1:hover{
+  background-color: rgb(128, 0, 0);
+}
   .instructions {
     color: #40da85;
     /* size: 1.7rem; */

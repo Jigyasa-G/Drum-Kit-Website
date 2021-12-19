@@ -341,10 +341,24 @@ ul{
   height: 40px;
   width: 150px;
   border: 2px solid #dbedf3;
-  border-radius: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 .btn:focus {
   transform: scale(0.94);
+}
+.btn:hover {
+  background-color: rgba(0,136,169,0.8);
+}
+.btn1{
+  font-size: 21px;
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn1:hover{
+  background-color: rgba(0,136,169,0.8);
 }
 
 
