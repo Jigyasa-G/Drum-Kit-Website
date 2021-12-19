@@ -1,3 +1,23 @@
+const get_detail=document.querySelector('.login__input');
+const btnlogin=document.querySelector('.login__btn');
+const container=document.querySelector('.sec');
+const navig=document.querySelector('.landing-box');
+const welcome=document.querySelector('.wel');
+
+btnlogin.addEventListener('click',function(e){
+  e.preventDefault();
+  value=get_detail.value;
+  if(get_detail.value)
+  {
+    container.style.opacity=100;
+
+    welcome.innerHTML=`Welcome  ${get_detail.value} !`;
+    navig.innerHTML=` `;
+    var myobj = document.getElementById("box");
+    myobj.remove();
+    document.body.style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqzeMJTvGzvF-X-vgXz-dSBYg0xDec-sbNyM6hm6WK4bga5QJpu4Yk170nT6V01H2SINI&usqp=CAU')";
+
+
 var numberOfButtons = document.querySelectorAll('.drum').length;
 
 for (var i = 0; i < numberOfButtons; i++) {
@@ -44,6 +64,7 @@ function togglerefresh()
 
 //Detecting Keyboard Press
 
+let sequence=[];
 document.addEventListener('keypress', function (event) {
   makeSound(event.key);
   buttonAnimation(event.key);
@@ -51,25 +72,25 @@ document.addEventListener('keypress', function (event) {
 
 function makeSound(key) {
   switch (key) {
-    case 'w':
-      var audio = new Audio('sounds/tom-1.mp3');
-      audio.play();
-      break;
+    // case 'w':
+    //   var audio = new Audio('sounds/tom-1.mp3');
+    //   audio.play();
+    //   break;
 
-    case 'a':
-      var audio = new Audio('sounds/tom-2.mp3');
-      audio.play();
-      break;
+    // case 'a':
+    //   var audio = new Audio('sounds/tom-2.mp3');
+    //   audio.play();
+    //   break;
 
-    case 's':
-      var audio = new Audio('sounds/tom-3.mp3');
-      audio.play();
-      break;
+    // case 's':
+    //   var audio = new Audio('sounds/tom-3.mp3');
+    //   audio.play();
+    //   break;
 
-    case 'd':
-      var audio = new Audio('sounds/tom-4.mp3');
-      audio.play();
-      break;
+    // case 'd':
+    //   var audio = new Audio('sounds/tom-4.mp3');
+    //   audio.play();
+    //   break;
 
     case 'j':
       var audio = new Audio('sounds/crash.mp3');
@@ -81,10 +102,10 @@ function makeSound(key) {
       audio.play();
       break;
 
-    case 'l':
-      var audio = new Audio('sounds/snare.mp3');
-      audio.play();
-      break;
+    // case 'l':
+    //   var audio = new Audio('sounds/snare.mp3');
+    //   audio.play();
+    //   break;
 
     case 'i':
       var audio = new Audio('sounds/Hi-Hat-Foot-Pedal.mp3');
@@ -107,9 +128,9 @@ function makeSound(key) {
       break;
 
     default:
-      console.log(buttonInnerHTML);
+      // console.log(buttonInnerHTML);
   }
-}
+  }
 
 function buttonAnimation(currentKey) {
   var activeButton = document.querySelector('.' + currentKey);
@@ -123,11 +144,16 @@ function buttonAnimation(currentKey) {
 var wrapper = document.getElementById('key_wrapper');
 
 var btn = document.getElementById('myBtn');
+var btn2= document.getElementById('myBtn2');
 
 
 
 btn.onclick = function () {
   wrapper.classList.toggle("key-map-wrapper_one");
+};
+
+btn2.onclick= function(){
+  document.getElementById('music-sequence').innerHTML = sequence;
 };
 
 
@@ -197,6 +223,64 @@ btn.onclick = function () {
 	hiHatTop.addEventListener('transitionend', removeHiHatTopTransition);
 
 	window.addEventListener('keydown', playSound);
+
+
+    // On click audio function 
+
+    function playOnClick(){
+      const audio = document.querySelector(`audio[data-key="${this.dataset.key}"]`);
+      const key = document.querySelector(`div[data-key="${this.dataset.key}"]`);
+      if (!audio) return;
+  
+      audio.currentTime = 0;
+      audio.play();
+      const keyNo = this.dataset.key;
+      
+      switch(keyNo) {
+        case '74':
+          sequence.push('J');
+          break;
+        case '66':
+          sequence.push('B');
+          break;
+        case '86':
+          sequence.push('V');
+          break;
+        case '72':
+          sequence.push('H');
+          break;
+        case '71':
+          sequence.push('G');
+          break;
+        case '70':
+          sequence.push('F');
+          break;
+        case '69':
+          sequence.push('E');
+          break;
+        case '73':
+          sequence.push('I');
+          break;
+        case '82':
+          animateCrashOrRide();
+          sequence.push('R');
+          break;
+        case '75':
+          animateHiHatClosed();
+          sequence.push('K');
+          console.log("happen");
+        break;
+      }
+      key.classList.add(playingClass);
+      console.log(sequence);
+    }
+  
+    const drumbtn = document.querySelectorAll('.key');
+    drumbtn.forEach(key=>key.addEventListener('click', playOnClick));
 }
 
 
+}
+
+
+});
