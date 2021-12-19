@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Handlee|Pacifico);
 
 body {
+  display: block;
   text-align: center;
   background-color: #efeff3;
 }
@@ -67,7 +68,7 @@ h2 {
 
 footer {
   color: #dbedf3;
-  font-family: sans-serif;
+  font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 .w {
@@ -434,4 +435,13 @@ li {
 	margin-left: 10px;
 	font-family: 'Handlee', cursive;
 	vertical-align: middle;
+}
+
+.celebrate{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+#refresh{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 20px;
 }

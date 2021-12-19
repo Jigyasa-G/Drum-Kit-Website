@@ -20,7 +20,7 @@ body {
   
   footer {
     color: #dbedf3;
-    font-family: sans-serif;
+    font-family: 'Baloo Bhaijaan 2', cursive;
   }
   
   .w {
@@ -392,3 +392,11 @@ body {
 	vertical-align: middle;
 }
   
+.celebrate{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+#refresh{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 20px;
+}
