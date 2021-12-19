@@ -183,6 +183,15 @@ body {
   .btn:hover {
   background-color: rgb(173, 255, 47);
 }
+.btn1{
+  font-size: 21px;
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn1:hover{
+  background-color: rgb(220, 20, 60);
+}
   .instructions {
     color: #bc4e9c;
     /* size: 1.7rem; */

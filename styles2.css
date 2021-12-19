@@ -16,7 +16,7 @@ body {
     font-size: 20px;
   }
   h2 {
-    color: orangered;
+    color: rgb(0, 100, 0);
   }
   
   footer {
@@ -183,6 +183,15 @@ body {
     transform: scale(0.94);
   }
   .btn:hover {
+  background-color: rgb(0, 0, 0);
+}
+.btn1{
+  font-size: 21px;
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn1:hover{
   background-color: rgb(0, 0, 0);
 }
   .instructions {
