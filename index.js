@@ -64,6 +64,7 @@ function togglerefresh()
 
 //Detecting Keyboard Press
 
+let sequence=[];
 document.addEventListener('keypress', function (event) {
   makeSound(event.key);
   buttonAnimation(event.key);
@@ -71,25 +72,25 @@ document.addEventListener('keypress', function (event) {
 
 function makeSound(key) {
   switch (key) {
-    case 'w':
-      var audio = new Audio('sounds/tom-1.mp3');
-      audio.play();
-      break;
+    // case 'w':
+    //   var audio = new Audio('sounds/tom-1.mp3');
+    //   audio.play();
+    //   break;
 
-    case 'a':
-      var audio = new Audio('sounds/tom-2.mp3');
-      audio.play();
-      break;
+    // case 'a':
+    //   var audio = new Audio('sounds/tom-2.mp3');
+    //   audio.play();
+    //   break;
 
-    case 's':
-      var audio = new Audio('sounds/tom-3.mp3');
-      audio.play();
-      break;
+    // case 's':
+    //   var audio = new Audio('sounds/tom-3.mp3');
+    //   audio.play();
+    //   break;
 
-    case 'd':
-      var audio = new Audio('sounds/tom-4.mp3');
-      audio.play();
-      break;
+    // case 'd':
+    //   var audio = new Audio('sounds/tom-4.mp3');
+    //   audio.play();
+    //   break;
 
     case 'j':
       var audio = new Audio('sounds/crash.mp3');
@@ -101,10 +102,10 @@ function makeSound(key) {
       audio.play();
       break;
 
-    case 'l':
-      var audio = new Audio('sounds/snare.mp3');
-      audio.play();
-      break;
+    // case 'l':
+    //   var audio = new Audio('sounds/snare.mp3');
+    //   audio.play();
+    //   break;
 
     case 'i':
       var audio = new Audio('sounds/Hi-Hat-Foot-Pedal.mp3');
@@ -127,9 +128,9 @@ function makeSound(key) {
       break;
 
     default:
-      console.log(buttonInnerHTML);
+      // console.log(buttonInnerHTML);
   }
-}
+  }
 
 function buttonAnimation(currentKey) {
   var activeButton = document.querySelector('.' + currentKey);
@@ -143,11 +144,16 @@ function buttonAnimation(currentKey) {
 var wrapper = document.getElementById('key_wrapper');
 
 var btn = document.getElementById('myBtn');
+var btn2= document.getElementById('myBtn2');
 
 
 
 btn.onclick = function () {
   wrapper.classList.toggle("key-map-wrapper_one");
+};
+
+btn2.onclick= function(){
+  document.getElementById('music-sequence').innerHTML = sequence;
 };
 
 
@@ -231,16 +237,42 @@ btn.onclick = function () {
       const keyNo = this.dataset.key;
       
       switch(keyNo) {
+        case '74':
+          sequence.push('J');
+          break;
+        case '66':
+          sequence.push('B');
+          break;
+        case '86':
+          sequence.push('V');
+          break;
+        case '72':
+          sequence.push('H');
+          break;
+        case '71':
+          sequence.push('G');
+          break;
+        case '70':
+          sequence.push('F');
+          break;
         case '69':
+          sequence.push('E');
+          break;
+        case '73':
+          sequence.push('I');
+          break;
         case '82':
           animateCrashOrRide();
+          sequence.push('R');
           break;
         case '75':
           animateHiHatClosed();
+          sequence.push('K');
           console.log("happen");
         break;
       }
       key.classList.add(playingClass);
+      console.log(sequence);
     }
   
     const drumbtn = document.querySelectorAll('.key');
