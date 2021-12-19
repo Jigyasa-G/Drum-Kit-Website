@@ -1,8 +1,18 @@
-body {
+* {
     text-align: center;
-    background-image: linear-gradient(to right, #1a2980,#26d0c0);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_D330oW79GfBP_Fe2AefnKz1bO8lDnlX3UA&usqp=CAU");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
   
+  .welcome{
+    color: black;
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
+
   h1 {
     font-size: 5rem;
     color: rgb(255, 255, 255);
@@ -400,6 +410,12 @@ body {
 	font-family: 'Handlee', cursive;
 	vertical-align: middle;
 }
+ main
+
+.footer{
+  color: #111;
+}
+  
   
 .celebrate{
   font-family: 'Baloo Bhaijaan 2', cursive;
@@ -409,3 +425,4 @@ body {
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 20px;
 }
+main

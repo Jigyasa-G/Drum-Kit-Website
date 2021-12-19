@@ -4,7 +4,20 @@ body {
   display: block;
   text-align: center;
   background-color: #efeff3;
+  background-image: url("https://c0.wallpaperflare.com/preview/730/977/271/drums-set-people-man.jpg");  
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+main
+.landing-box {
+  display: inline-block;
+  margin-top: 14%;
+  width: 25%;
+  border: white solid;
+  padding-bottom: 2%;
+  padding-top: 2%;
 
 
 nav {
@@ -12,8 +25,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+ main
 }
+
 .welcome{
+  color: white;
   font-size: 1.9rem;
   font-weight: 500;
 }
@@ -40,20 +56,28 @@ nav {
 .sec{
   opacity: 0;
 }
-.login__btn {
-  border: none;
-  background: none;
-  font-size: 2.2rem;
-  color: inherit;
-  cursor: pointer;
-  transition: all 0.3s;
-}
 
-.login__btn:hover,
-.login__btn:focus {
-  outline: none;
-  color: #777;
+/* .btn:hover {
+  letter-spacing: 0.8em;
+  background-color: #F08C99;
 }
+.btn {
+  color: white;
+}
+button {
+  height: 4em;
+  width: 10%;
+  padding: 1.5em auto;
+  margin: 1em auto;
+  background-color: #FEB1C0;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+ 
+} */
+
 
 h1 {
   font-size: 5rem;
@@ -447,6 +471,8 @@ li {
 	vertical-align: middle;
 }
 
+ main
+
 .celebrate{
   font-family: 'Baloo Bhaijaan 2', cursive;
 }
@@ -455,3 +481,4 @@ li {
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 20px;
 }
+main

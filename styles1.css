@@ -1,10 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Handlee|Pacifico);
-
-body {
+* {
     text-align: center;
-    background-image: linear-gradient(to right, #11998e,#38ef7d);
+    background-image: url("https://media.istockphoto.com/photos/gradient-with-paris-daisy-yellow-screaming-green-bright-turquoise-picture-id1063685130?k=20&m=1063685130&s=170667a&w=0&h=YHmO-q_yZxytZwAWgE76tyvA6HrxzEUCuS8zOpcj11M=");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
   
+  .welcome{
+    color: black;
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
   h1 {
     font-size: 5rem;
     color: rgb(253, 55, 55);
@@ -404,6 +412,10 @@ body {
 	vertical-align: middle;
 }
 
+main
+.footer{
+  color: #111;
+
 .celebrate{
   font-family: 'Baloo Bhaijaan 2', cursive;
 }
@@ -411,4 +423,5 @@ body {
 #refresh{
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 20px;
+ main
 }

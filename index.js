@@ -1,7 +1,7 @@
 const get_detail=document.querySelector('.login__input');
 const btnlogin=document.querySelector('.login__btn');
 const container=document.querySelector('.sec');
-const navig=document.querySelector('.navigation');
+const navig=document.querySelector('.landing-box');
 const welcome=document.querySelector('.wel');
 
 btnlogin.addEventListener('click',function(e){
@@ -13,7 +13,9 @@ btnlogin.addEventListener('click',function(e){
 
     welcome.innerHTML=`Welcome  ${get_detail.value}`;
     navig.innerHTML=` `;
-    
+    var myobj = document.getElementById("box");
+    myobj.remove();
+    document.body.style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqzeMJTvGzvF-X-vgXz-dSBYg0xDec-sbNyM6hm6WK4bga5QJpu4Yk170nT6V01H2SINI&usqp=CAU')";
 
 
 var numberOfButtons = document.querySelectorAll('.drum').length;

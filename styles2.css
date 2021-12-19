@@ -1,8 +1,18 @@
-body {
+* {
     text-align: center;
-    background-image: linear-gradient(to right, #ff8008,#ffc837);
+    background-image: url("https://preview.pixlr.com/images/800wm/1143/1/1143142548.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
   
+  .welcome{
+    color: black;
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+
+
   h1 {
     font-size: 5rem;
     font-weight: bold;
@@ -401,6 +411,10 @@ body {
 	vertical-align: middle;
 }
 
+main
+.footer{
+  color: #111;
+
 .celebrate{
   font-family: 'Baloo Bhaijaan 2', cursive;
 }
@@ -408,4 +422,5 @@ body {
 #refresh{
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 20px;
+ main
 }
