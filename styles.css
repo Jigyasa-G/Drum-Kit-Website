@@ -6,6 +6,7 @@ body {
   background-color: #efeff3;
 }
 
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -228,9 +229,18 @@ ul{
   transform: scale(0.94);
 }
 
+
 .instructions {
   color: #afb9c8;
   /* size: 1.7rem; */
+  size: 4rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  border: none;
+  outline: none;
+}
+.show_sequence {
+  color: #afb9c8;
   size: 4rem;
   margin-block-start: 0;
   margin-block-end: 0;

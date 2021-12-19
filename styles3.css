@@ -189,6 +189,15 @@ body {
     border: none;
     outline: none;
   }
+  .show_sequence {
+    color: #afb9c8;
+    size: 4rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    border: none;
+    outline: none;
+  }
+  
   
   .text1 {
     color: #ffffff;
