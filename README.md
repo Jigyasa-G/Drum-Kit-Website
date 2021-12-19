@@ -67,7 +67,6 @@ Contributions are always welcome!
 ## Authors
 
 - [@Jigyasa-G](https://www.github.com/Jigyasa-G)
-- [@Sachin Mittal](https://github.com/SachinMittal1766)
 
 ## Contributors
 <br>
