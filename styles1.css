@@ -86,14 +86,10 @@ a {
 	.header {
 		flex-direction: column;
 		align-items: center;
-    	.header{
-		width: 80%;
+      width: 80%;
 		margin: 0 auto;
-		max-width: 1150px;
-	}
-	}
-
-}
+		max-width: 1150px;}
+  }
 
 @media (min-width: 1025px) {
 	.header {
@@ -128,7 +124,7 @@ nav {
   width: 15%;
   height: 30%;
   margin-top: 5px;
-=======
+}
 * {
     text-align: center;
     background-image: url("https://media.istockphoto.com/photos/gradient-with-paris-daisy-yellow-screaming-green-bright-turquoise-picture-id1063685130?k=20&m=1063685130&s=170667a&w=0&h=YHmO-q_yZxytZwAWgE76tyvA6HrxzEUCuS8zOpcj11M=");
@@ -381,7 +377,6 @@ nav {
   }
 
   
-}
 .login__input {
   /* border: none; */
   padding: 0.5rem 2rem;
@@ -805,10 +800,10 @@ li {
 	font-family: 'Handlee', cursive;
 	vertical-align: middle;
 }
-
 main
 .footer{
   color: #111;
+}
 
 .celebrate{
   font-family: 'Baloo Bhaijaan 2', cursive;
@@ -817,5 +812,4 @@ main
 #refresh{
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 20px;
- main
 }
