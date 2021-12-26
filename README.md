@@ -27,7 +27,7 @@ Use our application: [Drum-kit](https://jigyasa-g.github.io/Drum-Kit-Website/)
 
 
 ## Screenshot
-![](https://user-images.githubusercontent.com/94735564/145700332-615ac9b1-5628-4a70-b1f6-f75795e38ff8.jpeg)
+![image](https://user-images.githubusercontent.com/94735564/147415197-0be4024f-5819-4832-9d93-b23764fe87c9.png)
 
 ## Run Locally
 
