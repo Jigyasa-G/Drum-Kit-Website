@@ -74,17 +74,15 @@ a {
 	.main-nav {
 		display: flex;
 	}
+}
 	.header {
 		flex-direction: column;
 		align-items: center;
-    	.header{
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
 	}
-	}
 
-}
 
 @media (min-width: 1025px) {
 	.header {
@@ -111,14 +109,13 @@ main
   border: white solid;
   padding-bottom: 2%;
   padding-top: 2%;
-
+}
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
- main
 }
 
 .welcome{
