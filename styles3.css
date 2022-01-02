@@ -76,14 +76,13 @@ a {
 	.header {
 		flex-direction: column;
 		align-items: center;
-    	.header{
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
 	}
 	}
 
-}
+
 
 @media (min-width: 1025px) {
 	.header {
@@ -118,8 +117,6 @@ nav {
   width: 15%;
   height: 30%;
   margin-top: 5px;
-=======
-* {
     text-align: center;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_D330oW79GfBP_Fe2AefnKz1bO8lDnlX3UA&usqp=CAU");
     background-repeat:no-repeat;
@@ -367,7 +364,6 @@ nav {
   }
 
   
-}
 .login__input {
   /* border: none; */
   padding: 0.5rem 2rem;
@@ -805,4 +801,3 @@ li {
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 20px;
 }
-main

@@ -82,14 +82,13 @@ a {
 	.header {
 		flex-direction: column;
 		align-items: center;
-    	.header{
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
 	}
 	}
 
-}
+
 
 @media (min-width: 1025px) {
 	.header {
@@ -124,8 +123,6 @@ nav {
   width: 15%;
   height: 30%;
   margin-top: 5px;
-=======
-* {
     text-align: center;
     background-image: url("https://preview.pixlr.com/images/800wm/1143/1/1143142548.jpg");
     background-repeat:no-repeat;
@@ -378,7 +375,7 @@ nav {
   }
 
   
-}
+
 .login__input {
   /* border: none; */
   padding: 0.5rem 2rem;
@@ -806,7 +803,7 @@ li {
 main
 .footer{
   color: #111;
-
+}
 .celebrate{
   font-family: 'Baloo Bhaijaan 2', cursive;
 }
@@ -814,5 +811,4 @@ main
 #refresh{
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 20px;
- main
 }
