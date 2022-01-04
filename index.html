@@ -11,6 +11,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" />
     <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <style>
+    .refresh-btn {
+      border-radius: 20px;
+      border: 2px solid #fff;
+      background-color: transparent;
+      cursor: pointer;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 15px;
+      color: whitesmoke;
+      font-weight: bolder;
+      transition: all 0.3s;
+    }
+    #refresh {
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  font-size: 20px;
+    }
+
+#refresh :hover {
+  background-color: whitesmoke;
+  color: blue;}
+
+    </style>
   </head>
 
   <body>
@@ -26,36 +49,32 @@
             
         </ul>
     </header>
-
      <nav class="navigation">
-      <p class="welcome">Enter your name to get started</p>
-      <br><br>
+      <p class="welcome"></p>
       </nav>
+      <br>
       <form class="login">
+        <p class="login_head"> Enter your name</p>
         <input
           type="text"
           placeholder="username" 
           class="login__input login__input--user" style="
-          padding: 12px 20px;
           background-color: rgb(255, 240, 175);
           font-size: 18px;
-          margin: 8px 0;
           box-sizing: border-box;"
         />
         <br>
-        <button style="opacity: 2;
-        font-weight: bold;
-        height: 50px;
+        <button style="font-weight: bold;
+        height: 35px;
         background-color: rgba(51, 255, 0, 0.733);
-        width: 166px;
+        width: 120px;
         border: 2px solid #dbedf3;
         border-radius: 10px;
         cursor: pointer;
         transition: all 0.3s ease 0s;
-        font-size: 2rem;
+        font-size: 1rem;
         font-family: 'Arvo', cursive;
-        text-shadow: 3px 0 #da0463;
-        margin: 5vh auto;
+        margin: 1vh auto;
         " class="login__btn">ENTER</button>
       </form>
     </div>
@@ -66,9 +85,10 @@
     <h1 id="title">Drum 🥁 Kit</h1>
     <button id="myBtn" class="btn">
       <h2 class="instructions">Instructions</h2>
-
-    </button>   
-    
+    </button> 
+    <br>
+    <div class="btns" style="display: inline-flex;
+    flex-direction: row;"> 
     <div id="refresh">
     <button  class="refresh-btn"
     class="refresh-btn">
@@ -76,21 +96,20 @@
        <i class="fas fa-sync-alt"></i>
     </button>
     </div>
+    <div id="refresh">
+      <button class="refresh-btn"
+      class="refresh-btn" onClick="window.location.reload();" >
+      <span>Refresh whole web-app !</span> 
+      <i class="fas fa-sync-alt"></i>
+      </button>
+      </div>
+    </div> 
     <h2>Celebrate with a Drum Roll</h2>
 
     </button>  
     <button id="myBtn2" class="btn">
       <h2 class="show_sequence">Sequence</h2>
     </button> 
-
-    <div id="refresh">
-      <button class="refresh-btn"
-      class="refresh-btn" onClick="window.location.reload();">
-      <span>Refresh whole web-app !</span> 
-      <i class="fas fa-sync-alt"></i>
-      </button>
-      </div>
-    <h2 class="celebrate">Celebrate with a Drum Roll</h2>
 
   <br/> <br/> <br/> 
     
