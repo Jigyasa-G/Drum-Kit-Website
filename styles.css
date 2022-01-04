@@ -60,7 +60,12 @@ a {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
-
+.navigation{
+  display: inline-block;
+  /* border-radius: 5px; */
+  margin-top: 5%;
+  /* padding: 5px; */
+}
 @media (min-width: 769px) {
   .header,
   .main-nav {
@@ -84,7 +89,6 @@ a {
 
 body {
   text-align: center;
-
   background-image: url(https://images.unsplash.com/photo-1588032786045-59cefda005c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZHJ1bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +113,7 @@ nav {
 
 .welcome {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   font-weight: 500;
 }
@@ -131,11 +135,21 @@ nav {
   border: 1px solid rgb(12, 10, 10);
   transition: all 0.3s;
 }
-
+.login_head{
+  font-size: 28px;
+}
+.login{
+  display: inline-block;
+  background-color: rgb(168, 156, 156);
+  border-radius: 5px;
+  /* margin-top: 5%; */
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+}
 .sec {
   opacity: 0;
 }
-
 /* .btn:hover {
   letter-spacing: 0.8em;
   background-color: #F08C99;
@@ -558,14 +572,16 @@ li {
   vertical-align: middle;
 }
 
+
 main .celebrate {
   font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
-#refresh {
+/* #refresh {
   font-family: 'Baloo Bhaijaan 2', cursive;
   font-size: 20px;
 }
+
 .refresh-btn {
   border-radius: 20px;
   border: 2px solid #fff;
@@ -582,4 +598,4 @@ main .celebrate {
 #refresh :hover {
   background-color: whitesmoke;
   color: blue;
-}
+} */
