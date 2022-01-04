@@ -115,7 +115,9 @@ nav {
   width: 15%;
   height: 30%;
   margin-top: 5px;
+}
 
+*{
     text-align: center;
     background-image: url("https://www.teahub.io/photos/full/156-1569779_wallpaper-pink-linear-red-gradient-pale-violet-red.jpg");
     background-repeat:no-repeat;

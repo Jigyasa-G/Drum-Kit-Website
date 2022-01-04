@@ -117,6 +117,9 @@ nav {
   width: 15%;
   height: 30%;
   margin-top: 5px;
+}
+
+*{
     text-align: center;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_D330oW79GfBP_Fe2AefnKz1bO8lDnlX3UA&usqp=CAU");
     background-repeat:no-repeat;
